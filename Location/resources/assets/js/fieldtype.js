@@ -21,8 +21,10 @@ Vue.component('location-fieldtype', {
     },
 
     ready: function() {
+        var self = this;
+
         $(this.$els.location).geocomplete().bind('geocode:result', function(e, results) {
-            this.data = {
+            self.data = {
                 name: results.formatted_address,
                 latitude: results.geometry.location.lat(),
                 longitude: results.geometry.location.lng()
