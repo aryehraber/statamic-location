@@ -1,1 +1,9 @@
-.DS_Store
+.env
+node_modules/
+bower_components/
+package.json
+mix-manifest.json
+webpack.config.js
+webpack.mix.js
+gulpfile.js
+yarn.lock
