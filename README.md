@@ -12,7 +12,7 @@ This fieldtype will suggest addresses as you type. Granted the address is succes
 
 Firstly, copy the entire `Location` folder into `site/addons/`.
 
-Then grab an API Key from Google: http://console.developers.google.com.
+Enable **Google Maps JavaScript API** and generate an API Key: http://console.developers.google.com.
 
 Finally, add it to Location's settings (CP > Configure > Addons > Location).
 
