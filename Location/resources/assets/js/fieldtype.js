@@ -2,7 +2,7 @@
 
 Vue.component('location-fieldtype', {
 
-    template: '<div><input type="text" class="form-control" v-model="location" v-el:location /></div>',
+    template: '<div><input type="text" class="form-control" v-model="location" v-el:location /></div><div id="map" style="height:500px"></div>',
 
     props: ['data', 'config', 'name'],
 
